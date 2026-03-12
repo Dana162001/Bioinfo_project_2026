@@ -1,0 +1,217 @@
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+GGGCGATCTGGCTGCGACATCTGTCACCCCATTGATCGCCAGGGTTGATTCGGCTGATCT
+
+Read1 before filtering:
+total reads: 39901149
+total bases: 2095992942
+Q20 bases: 2065285339(98.5349%)
+Q30 bases: 2004622620(95.6407%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 39901149
+total bases: 2096940573
+Q20 bases: 2037108311(97.1467%)
+Q30 bases: 1946108680(92.807%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 39118474
+total bases: 2040634825
+Q20 bases: 2016664467(98.8253%)
+Q30 bases: 1961192269(96.107%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 39118474
+total bases: 2030415944
+Q20 bases: 1993752501(98.1943%)
+Q30 bases: 1912503387(94.1927%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 78236948
+reads failed due to low quality: 491778
+reads failed due to too many N: 1786
+reads failed due to too short: 1071786
+reads with adapter trimmed: 436273
+bases trimmed due to adapters: 19049134
+
+Duplication rate: 21.9445%
+
+Insert size peak (evaluated by paired-end reads): 53
+
+JSON report: trimmed_fastq/reports/Quizartinib1_48h.json
+HTML report: trimmed_fastq/reports/Quizartinib1_48h.html
+
+fastp -i data/Quizartinib1_48h_1.fastq.gz -I data/Quizartinib1_48h_2.fastq.gz -o trimmed_fastq/Quizartinib1_48h_1.trimmed.fastq.gz -O trimmed_fastq/Quizartinib1_48h_2.trimmed.fastq.gz --detect_adapter_for_pe --cut_front --cut_tail --cut_mean_quality 30 --thread 16 --html trimmed_fastq/reports/Quizartinib1_48h.html --json trimmed_fastq/reports/Quizartinib1_48h.json 
+fastp v1.0.1, time used: 57 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+GGGCGATCTGGCTGCGACATCTGTCACCCCATTGATCGCCAGGGTTGATTCGGCTGATCT
+
+Read1 before filtering:
+total reads: 41704179
+total bases: 2179056128
+Q20 bases: 2144929691(98.4339%)
+Q30 bases: 2081720341(95.5331%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 41704179
+total bases: 2191366580
+Q20 bases: 2091666316(95.4503%)
+Q30 bases: 1986999260(90.674%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 39986930
+total bases: 2085810150
+Q20 bases: 2061260403(98.823%)
+Q30 bases: 2004602031(96.1066%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 39986930
+total bases: 2066761458
+Q20 bases: 2024963448(97.9776%)
+Q30 bases: 1940212796(93.877%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 79973860
+reads failed due to low quality: 1080880
+reads failed due to too many N: 1724
+reads failed due to too short: 2351894
+reads with adapter trimmed: 444140
+bases trimmed due to adapters: 19540950
+
+Duplication rate: 19.1528%
+
+Insert size peak (evaluated by paired-end reads): 53
+
+JSON report: trimmed_fastq/reports/Quizartinib2_48h.json
+HTML report: trimmed_fastq/reports/Quizartinib2_48h.html
+
+fastp -i data/Quizartinib2_48h_1.fastq.gz -I data/Quizartinib2_48h_2.fastq.gz -o trimmed_fastq/Quizartinib2_48h_1.trimmed.fastq.gz -O trimmed_fastq/Quizartinib2_48h_2.trimmed.fastq.gz --detect_adapter_for_pe --cut_front --cut_tail --cut_mean_quality 30 --thread 16 --html trimmed_fastq/reports/Quizartinib2_48h.html --json trimmed_fastq/reports/Quizartinib2_48h.json 
+fastp v1.0.1, time used: 58 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+GGGCGATCTGGCTGCGACATCTGTCACCCCATTGATCGCCAGGGTTGATTCGGCTGATCT
+
+Read1 before filtering:
+total reads: 44895980
+total bases: 2358311045
+Q20 bases: 2324537823(98.5679%)
+Q30 bases: 2257016929(95.7048%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 44895980
+total bases: 2359502560
+Q20 bases: 2298794438(97.4271%)
+Q30 bases: 2206686544(93.5234%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 43989381
+total bases: 2295384222
+Q20 bases: 2268731823(98.8389%)
+Q30 bases: 2206793108(96.1405%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 43989381
+total bases: 2286544267
+Q20 bases: 2250793139(98.4365%)
+Q30 bases: 2168909328(94.8553%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 87978762
+reads failed due to low quality: 529156
+reads failed due to too many N: 2034
+reads failed due to too short: 1282008
+reads with adapter trimmed: 515384
+bases trimmed due to adapters: 22987792
+
+Duplication rate: 26.0495%
+
+Insert size peak (evaluated by paired-end reads): 53
+
+JSON report: trimmed_fastq/reports/Quizartinib3_48h.json
+HTML report: trimmed_fastq/reports/Quizartinib3_48h.html
+
+fastp -i data/Quizartinib3_48h_1.fastq.gz -I data/Quizartinib3_48h_2.fastq.gz -o trimmed_fastq/Quizartinib3_48h_1.trimmed.fastq.gz -O trimmed_fastq/Quizartinib3_48h_2.trimmed.fastq.gz --detect_adapter_for_pe --cut_front --cut_tail --cut_mean_quality 30 --thread 16 --html trimmed_fastq/reports/Quizartinib3_48h.html --json trimmed_fastq/reports/Quizartinib3_48h.json 
+fastp v1.0.1, time used: 63 seconds
+Detecting adapter sequence for read1...
+CGCCCGTCGGCATGTATTAGCTCTAGAATTACCACAGTTATCCAAGTAGGAGAGGAGCG
+
+Read1 before filtering:
+total reads: 15105624
+total bases: 770386824
+Q20 bases: 770386824(100%)
+Q30 bases: 770386824(100%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 15084746
+total bases: 755983976
+Q20 bases: 755983976(100%)
+Q30 bases: 755983976(100%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 15084746
+reads failed due to low quality: 0
+reads failed due to too many N: 502
+reads failed due to too short: 20376
+reads with adapter trimmed: 61804
+bases trimmed due to adapters: 1451652
+
+Duplication rate (may be overestimated since this is SE data): 61.9401%
+
+JSON report: trimmed_fastq/reports/Untreated1_1.json
+HTML report: trimmed_fastq/reports/Untreated1_1.html
+
+fastp -i data/Untreated1_1.fastq.gz -o trimmed_fastq/Untreated1_1.trimmed.fastq.gz --cut_front --cut_tail --cut_mean_quality 30 --thread 16 --html trimmed_fastq/reports/Untreated1_1.html --json trimmed_fastq/reports/Untreated1_1.json 
+fastp v1.0.1, time used: 21 seconds
+Detecting adapter sequence for read1...
+CGTCGGCATGTATTAGCTCTAGAATTACCACAGTTATCCAAGTAGGAGAGGAGCGAGCGA
+
+Read1 before filtering:
+total reads: 13510390
+total bases: 689029890
+Q20 bases: 689029890(100%)
+Q30 bases: 689029890(100%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 13419639
+total bases: 672597342
+Q20 bases: 672597342(100%)
+Q30 bases: 672597342(100%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 13419639
+reads failed due to low quality: 0
+reads failed due to too many N: 486
+reads failed due to too short: 90265
+reads with adapter trimmed: 115684
+bases trimmed due to adapters: 5232274
+
+Duplication rate (may be overestimated since this is SE data): 65.4517%
+
+JSON report: trimmed_fastq/reports/Untreated2_1.json
+HTML report: trimmed_fastq/reports/Untreated2_1.html
+
+fastp -i data/Untreated2_1.fastq.gz -o trimmed_fastq/Untreated2_1.trimmed.fastq.gz --cut_front --cut_tail --cut_mean_quality 30 --thread 16 --html trimmed_fastq/reports/Untreated2_1.html --json trimmed_fastq/reports/Untreated2_1.json 
+fastp v1.0.1, time used: 18 seconds

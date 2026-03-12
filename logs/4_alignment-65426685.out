@@ -1,0 +1,44 @@
+Starting job
+Thu Mar  5 11:55:08 AM CET 2026
+	/home/xu262605/.conda/envs/ahi_workshop/bin/STAR-avx2 --runThreadN 8 --genomeDir 3_star_index --readFilesIn 2_trimmed_fastq/Quizartinib1_48h_1.trimmed.fastq.gz 2_trimmed_fastq/Quizartinib1_48h_2.trimmed.fastq.gz --readFilesCommand zcat --outFileNamePrefix 4_alignment/Quizartinib1_48h_ --outSAMtype BAM SortedByCoordinate
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Mar 05 11:55:19 ..... started STAR run
+Mar 05 11:55:19 ..... loading genome
+Mar 05 11:55:38 ..... started mapping
+Mar 05 11:58:18 ..... finished mapping
+Mar 05 11:58:18 ..... started sorting BAM
+Mar 05 11:58:49 ..... finished successfully
+	/home/xu262605/.conda/envs/ahi_workshop/bin/STAR-avx2 --runThreadN 8 --genomeDir 3_star_index --readFilesIn 2_trimmed_fastq/Quizartinib2_48h_1.trimmed.fastq.gz 2_trimmed_fastq/Quizartinib2_48h_2.trimmed.fastq.gz --readFilesCommand zcat --outFileNamePrefix 4_alignment/Quizartinib2_48h_ --outSAMtype BAM SortedByCoordinate
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Mar 05 11:58:50 ..... started STAR run
+Mar 05 11:58:50 ..... loading genome
+Mar 05 11:59:09 ..... started mapping
+Mar 05 12:01:58 ..... finished mapping
+Mar 05 12:01:59 ..... started sorting BAM
+Mar 05 12:02:20 ..... finished successfully
+	/home/xu262605/.conda/envs/ahi_workshop/bin/STAR-avx2 --runThreadN 8 --genomeDir 3_star_index --readFilesIn 2_trimmed_fastq/Quizartinib3_48h_1.trimmed.fastq.gz 2_trimmed_fastq/Quizartinib3_48h_2.trimmed.fastq.gz --readFilesCommand zcat --outFileNamePrefix 4_alignment/Quizartinib3_48h_ --outSAMtype BAM SortedByCoordinate
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Mar 05 12:02:22 ..... started STAR run
+Mar 05 12:02:22 ..... loading genome
+Mar 05 12:02:40 ..... started mapping
+Mar 05 12:05:32 ..... finished mapping
+Mar 05 12:05:33 ..... started sorting BAM
+Mar 05 12:06:02 ..... finished successfully
+	/home/xu262605/.conda/envs/ahi_workshop/bin/STAR-avx2 --runThreadN 8 --genomeDir 3_star_index --readFilesIn 2_trimmed_fastq/Untreated1_1.trimmed.fastq.gz --readFilesCommand zcat --outFileNamePrefix 4_alignment/Untreated1_1_ --outSAMtype BAM SortedByCoordinate
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Mar 05 12:06:04 ..... started STAR run
+Mar 05 12:06:04 ..... loading genome
+Mar 05 12:06:21 ..... started mapping
+Mar 05 12:06:52 ..... finished mapping
+Mar 05 12:06:52 ..... started sorting BAM
+Mar 05 12:06:56 ..... finished successfully
+	/home/xu262605/.conda/envs/ahi_workshop/bin/STAR-avx2 --runThreadN 8 --genomeDir 3_star_index --readFilesIn 2_trimmed_fastq/Untreated2_1.trimmed.fastq.gz --readFilesCommand zcat --outFileNamePrefix 4_alignment/Untreated2_1_ --outSAMtype BAM SortedByCoordinate
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Mar 05 12:06:57 ..... started STAR run
+Mar 05 12:06:57 ..... loading genome
+Mar 05 12:07:13 ..... started mapping
+Mar 05 12:07:41 ..... finished mapping
+Mar 05 12:07:41 ..... started sorting BAM
+Mar 05 12:07:44 ..... finished successfully
+Splice-Aware Alignment finished
+Thu Mar  5 12:07:45 PM CET 2026

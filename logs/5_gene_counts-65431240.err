@@ -1,0 +1,126 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 3 BAM files                                      ||
+||                                                                            ||
+||                           Quizartinib1_48h_Aligned.sortedByCoord.out.bam   ||
+||                           Quizartinib2_48h_Aligned.sortedByCoord.out.bam   ||
+||                           Quizartinib3_48h_Aligned.sortedByCoord.out.bam   ||
+||                                                                            ||
+||             Output file : quizartinib_counts.txt                           ||
+||                 Summary : quizartinib_counts.txt.summary                   ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : gencode.v49.annotation.gtf (GTF)                 ||
+||      Dir for temp files : 5_counts                                         ||
+||                                                                            ||
+||                 Threads : 16                                               ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v49.annotation.gtf ...                        ||
+||    Features : 3673949                                                      ||
+||    Meta-features : 78691                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file Quizartinib1_48h_Aligned.sortedByCoord.out.bam...         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 107797041                                            ||
+||    Successfully assigned alignments : 31056046 (28.8%)                     ||
+||    Running time : 0.08 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Quizartinib2_48h_Aligned.sortedByCoord.out.bam...         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 106576691                                            ||
+||    Successfully assigned alignments : 31138603 (29.2%)                     ||
+||    Running time : 0.08 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Quizartinib3_48h_Aligned.sortedByCoord.out.bam...         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 121339776                                            ||
+||    Successfully assigned alignments : 36959281 (30.5%)                     ||
+||    Running time : 0.08 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "5_counts/quizartinib_co  ||
+|| unts.txt.summary"                                                          ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 2 BAM files                                      ||
+||                                                                            ||
+||                           Untreated1_1_Aligned.sortedByCoord.out.bam       ||
+||                           Untreated2_1_Aligned.sortedByCoord.out.bam       ||
+||                                                                            ||
+||             Output file : untreated_counts.txt                             ||
+||                 Summary : untreated_counts.txt.summary                     ||
+||              Paired-end : no                                               ||
+||        Count read pairs : no                                               ||
+||              Annotation : gencode.v49.annotation.gtf (GTF)                 ||
+||      Dir for temp files : 5_counts                                         ||
+||                                                                            ||
+||                 Threads : 16                                               ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file gencode.v49.annotation.gtf ...                        ||
+||    Features : 3673949                                                      ||
+||    Meta-features : 78691                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file Untreated1_1_Aligned.sortedByCoord.out.bam...             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 27926282                                             ||
+||    Successfully assigned alignments : 8948767 (32.0%)                      ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Untreated2_1_Aligned.sortedByCoord.out.bam...             ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 26821789                                             ||
+||    Successfully assigned alignments : 7833021 (29.2%)                      ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "5_counts/untreated_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
