@@ -1,0 +1,15 @@
+Status	4_alignment/Untreated1_1_Aligned.sortedByCoord.out.bam	4_alignment/Untreated2_1_Aligned.sortedByCoord.out.bam
+Assigned	8948767	7833021
+Unassigned_Unmapped	0	0
+Unassigned_Read_Type	0	0
+Unassigned_Singleton	0	0
+Unassigned_MappingQuality	0	0
+Unassigned_Chimera	0	0
+Unassigned_FragmentLength	0	0
+Unassigned_Duplicate	0	0
+Unassigned_MultiMapping	16456961	16924092
+Unassigned_Secondary	0	0
+Unassigned_NonSplit	0	0
+Unassigned_NoFeatures	1543214	1191000
+Unassigned_Overlapping_Length	0	0
+Unassigned_Ambiguity	977340	873676
