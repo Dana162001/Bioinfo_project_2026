@@ -1,0 +1,9 @@
+.	Basic Statistics	Per Base Sequence Quality	Per Sequence Quality Scores	Per Base Sequence Content	Per Sequence GC Content	Per Base N Content	Sequence Length Distribution	Sequence Duplication Levels	Overrepresented Sequences	Adapter Content	Per Tile Sequence Quality
+Quizartinib1_48h_1	1	1	1	0.25	1	1	0.5	0.5	0.5	1	0
+Quizartinib1_48h_2	1	1	1	0.25	0.25	1	0.5	0.5	0.5	1	0
+Quizartinib2_48h_1	1	1	1	0.25	0.5	1	0.5	0.5	0.5	1	0
+Quizartinib2_48h_2	1	1	1	0.25	0.5	1	0.5	0.5	0.5	1	0
+Quizartinib3_48h_1	1	1	1	0.25	1	1	0.5	0.25	0.5	1	0
+Quizartinib3_48h_2	1	1	1	0.25	0.25	1	0.5	0.5	0.5	1	0
+Untreated1_1	1	1	1	0.25	1	0.25	1	0.25	0.5	1	1
+Untreated2_1	1	1	1	0.25	1	0.25	1	0.25	0.5	1	1

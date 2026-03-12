@@ -1,0 +1,9 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	Quizartinib1_48h_1	/rwthfs/rz/cluster/hpcwork/p0020567/dana_data/000_Bioinfo_Project/1_fastqc_raw/Quizartinib1_48h_1_fastqc.zip
+FastQC	all_sections	Quizartinib1_48h_2	/rwthfs/rz/cluster/hpcwork/p0020567/dana_data/000_Bioinfo_Project/1_fastqc_raw/Quizartinib1_48h_2_fastqc.zip
+FastQC	all_sections	Quizartinib2_48h_1	/rwthfs/rz/cluster/hpcwork/p0020567/dana_data/000_Bioinfo_Project/1_fastqc_raw/Quizartinib2_48h_1_fastqc.zip
+FastQC	all_sections	Quizartinib2_48h_2	/rwthfs/rz/cluster/hpcwork/p0020567/dana_data/000_Bioinfo_Project/1_fastqc_raw/Quizartinib2_48h_2_fastqc.zip
+FastQC	all_sections	Quizartinib3_48h_1	/rwthfs/rz/cluster/hpcwork/p0020567/dana_data/000_Bioinfo_Project/1_fastqc_raw/Quizartinib3_48h_1_fastqc.zip
+FastQC	all_sections	Quizartinib3_48h_2	/rwthfs/rz/cluster/hpcwork/p0020567/dana_data/000_Bioinfo_Project/1_fastqc_raw/Quizartinib3_48h_2_fastqc.zip
+FastQC	all_sections	Untreated1_1	/rwthfs/rz/cluster/hpcwork/p0020567/dana_data/000_Bioinfo_Project/1_fastqc_raw/Untreated1_1_fastqc.zip
+FastQC	all_sections	Untreated2_1	/rwthfs/rz/cluster/hpcwork/p0020567/dana_data/000_Bioinfo_Project/1_fastqc_raw/Untreated2_1_fastqc.zip
