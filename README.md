@@ -7,7 +7,7 @@ This project contains a complete RNA-seq analysis pipeline to identify different
 
 The analysis starts from raw sequencing reads (FASTQ) and proceeds through quality control, read trimming, genome alignment, gene quantification, and differential expression analysis.
 
-The goal of the project is to characterize transcriptional changes induced by FLT3 inhibition and identify genes and pathways affected by Quizartinib treatment.
+The goal of the project is to characterize transcriptional changes and identify genes affected by Quizartinib treatment.
 
 ### Workflow Summary
 
