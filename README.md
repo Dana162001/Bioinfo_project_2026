@@ -35,6 +35,7 @@ Gene counts are analyzed using PyDESeq2, the Python implementation of the DESeq2
 * Heatmaps of the differentially expressed genes
 
 ### Directory Structure
+#### Note: not all output folders are saved to the GitHub repository due to the large size
 
 ```
 ├── 1_fastqc_raw
@@ -65,6 +66,34 @@ Gene counts are analyzed using PyDESeq2, the Python implementation of the DESeq2
 └── .gitignore
 ```
 
+### Reproducibility
+#### Local
+1. Set up [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) environment
+Conda environment file is provided to fully reproduce the setup used in this project.
+
+Create the environment using:
+```
+conda env create -f env.yml
+```
+
+2. Activate the environment:
+```
+conda activate ahi_workshop
+```
+3. Run Quality Control in terminal
+```
+for file in *.fastq.gz
+do
+    fastqc $file -o 1_fastqc_raw
+done
+```
+run multiQC summary:
+```
+multiqc 1_fastqc_raw -o 1_fastqc_raw
+```
+4. Next run the shell scripts in order: 2_trim_fastp.sh → 5_gene_level_counting.sh
+
+
 ### Tools Used
 
 Key tools and libraries used in this project:
@@ -87,3 +116,9 @@ Python (pandas, seaborn, matplotlib) — data analysis and visualization
 * Differential expression results
 * Volcano plot of significant genes
 * vHeatmap of top differentially expressed genes
+
+### Author
+
+Daryna Pikulska 
+
+AHI RWTH Bioinformatics 2026
